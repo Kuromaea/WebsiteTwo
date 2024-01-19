@@ -9,6 +9,47 @@
 }
 
 body {
-    background: var(--white-color);
-    padding-top: 250px;
+    background: url(../sources/img/4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+header p {
+    color: var(--white-color);
+}
+
+.title-container,
+.description,
+.logo-link,
+.sign-link {
+    width: 25%;
+}
+
+.title-container {
+    font-family: 'PPMondwest';
+    font-size: var(--fs-16);
+    font-weight: 900;
+    font-style: italic;
+    line-height: 0.9;
+}
+
+.description {
+    text-align: left;
+    font-family: 'NaturalMono';
+    font-size: var(--fs-10);
+    color: var(--white-color);
+}
+
+.description .item-3 {
+    margin-left: var(--fs-10);
 }
