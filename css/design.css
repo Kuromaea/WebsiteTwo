@@ -1,0 +1,78 @@
+/* fonts */
+
+@font-face {
+    font-family: '7NeutralGrotesk';
+    src: url(../sources/font/7NeutralGrotesk-Regular.otf),
+        url(../sources/font/7NeutralGrotesk-Regular.ttf);
+}
+
+@font-face {
+    font-family: '8NeutralGrotesk';
+    src: url(..//sources/font/8NeutralGrotesk-RegularItalic.otf),
+        url(../sources/font/8NeutralGrotesk-RegularItalic.ttf);
+}
+
+@font-face {
+    font-family: 'MinionPro';
+    src: url(../sources/font/MinionPro-Regular.otf),
+        url(../sources/font/MinionPro-Medium.otf),
+        url(../sources/font/MinionPro-It.otf),
+        url(../sources/font/MinionPro-Bold.otf),
+        url(../sources/font/MinionPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: 'NaturalMono';
+    src: url(../sources/font/Natural\ Mono-Regular.ttf),
+        url(../sources/font/Natural\ Mono\ Alt-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PPMondwest';
+    src: url(../sources/font/PPMondwest-Regular.otf);
+}
+
+@font-face {
+    font-family: 'PPNeueBit';
+    src: url(../sources/font/PPNeueBit-Bold.otf);
+}
+
+@font-face {
+    font-family: 'RevolverBlackletter';
+    src: url(../sources/font/RevolverBlackletter-Regular.otf);
+}
+
+:root {
+    /* colors */
+    --lightblue-color: #006CFF;
+
+    /* General */
+    --white-color: #f0f0f0;
+    --white-op-color: rgba(255, 255, 255, 0.01);
+    --dark-color: rgba(146, 146, 146, 0.2);
+    --darkblack-color: #333333;
+    --lightgrey-color: #7e7e7e;
+    --lightgrey2-color: #8b8b8b;
+    --lightgrey3-color: #696969;
+
+    /* gradients */
+    --black-to-blue: linear-gradient(to right, #cbcbcb, #006CFF) no-repeat;
+    --black-to-black: linear-gradient(to right, #1b1b1b, #1b1b1b) no-repeat;
+    --black-to-white: linear-gradient(to right, #1b1b1b, #cbcbcb) no-repeat;
+
+    /* Font-size */
+    --fs-12: 0.75rem;
+    --fs-14: 0.875rem;
+    --fs-16: 1rem;
+    --fs-18: 1.125rem;
+    --fs-20: 1.25rem;
+    --fs-22: 1.375rem;
+    --fs-24: 1.5rem;
+    --fs-26: 1.625rem;
+    --fs-40: 2.5rem;
+    --fs-42: 2.625rem;
+    --fs-50: 3.125rem;
+    --fs-64: 4rem;
+    --fs-72: 4.5rem;
+    --fs-100: 6.25rem;
+}

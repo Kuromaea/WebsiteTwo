@@ -1,0 +1,14 @@
+@import url(./design.css);
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--white-color);
+    padding-top: 250px;
+}
