@@ -58,12 +58,16 @@ body {
     margin-left: var(--fs-10);
 }
 
+.content-container {
+    margin-bottom: 500px;
+}
+
 .content-container .item-1 {
     width: 100%;
     margin: 0 auto;
 }
 
-.content-container .item-1 h2 {
+.article-container.item-1 h2 {
     font-family: 'PPMondwest';
     font-size: var(--fs-300);
     color: var(--white-color);
@@ -71,25 +75,57 @@ body {
     font-weight: 500;
     letter-spacing: 2px;
     text-align: center;
-    line-height: 180px;
+    line-height: 230px;
     padding-top: 260px;
 
     transition: var(--animation-2);
     animation: var(--animation-style-2);
 }
 
-.content-container .item-1 p {
+/* Responsive h2 */
+@media (max-width: 1000px) {
+    .article-container.item-1 h2 {
+        font-size: 150px;
+        line-height: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .article-container.item-1 h2 {
+        font-size: 75px;
+        line-height: 50px;
+    }
+}
+
+.article-container.item-1 p {
+    display: block;
     font-family: 'NaturalMono';
     font-size: var(--fs-10);
     color: var(--white-color);
     letter-spacing: 1px;
-    padding: 0 500px;
-    margin-top: 100px;
     text-align: center;
+    padding-top: 120px;
+    margin: 0 500px;
 
     transition: var(--animation-2);
     animation: var(--animation-style-2);
 }
+
+/* Responsive p */
+@media (max-width: 1000px) {
+    .article-container.item-1 p {
+        padding-top: 60px;
+        margin: 0 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .article-container.item-1 p {
+        padding-top: 30px;
+        margin: 0 100px;
+    }
+}
+
 
 
 .sections-container {
@@ -97,15 +133,40 @@ body {
     margin: 0 auto;
 }
 
-.title-section {
+.title-section.section-1 {
+    font-family: '8NeutralGrotesk';
+    font-size: var(--fs-24);
+    color: var(--white-color);
     text-align: left;
-    padding-left: 10px;
+    padding-left: 100px;
     margin-top: 300px;
 }
 
-.title-section h2 {
+.title-section.section-2 {
     font-family: '8NeutralGrotesk';
-    font-size: var(--fs-72);
+    font-size: var(--fs-24);
     color: var(--white-color);
-    line-height: 100px;
+    text-align: right;
+    padding-right: 100px;
+    margin-top: 300px;
+}
+
+@media (max-width: 1000px) {
+
+    .title-section.section-1,
+    .title-section.section-2 {
+        font-size: var(--fs-10);
+    }
+}
+
+
+/* GSAP Animation */
+.title-section .text {
+    width: 100%;
+    color: var(--dark-color);
+    background: var(--white-to-white) no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 0%;
+    transition: background-size cubic-bezier(.1, .5, .5, 1) 0.5s;
 }

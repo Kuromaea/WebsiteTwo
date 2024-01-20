@@ -63,6 +63,7 @@
     --black-to-blue: linear-gradient(to right, #cbcbcb, #006CFF) no-repeat;
     --black-to-black: linear-gradient(to right, #1b1b1b, #1b1b1b) no-repeat;
     --black-to-white: linear-gradient(to right, #1b1b1b, #cbcbcb) no-repeat;
+    --white-to-white: linear-gradient(to right, #ffffff, #f1f1f1) no-repeat;
 
     /* Font-size */
     --fs-10: 0.625rem;
