@@ -1,3 +1,5 @@
+@import url(../css/animation.css);
+
 /* fonts */
 
 @font-face {
@@ -47,6 +49,7 @@
     --lightblue-color: #006CFF;
 
     /* General */
+    --black-color: #222;
     --white-color: #f0f0f0;
     --white-op-color: rgba(255, 255, 255, 0.01);
     --dark-color: rgba(146, 146, 146, 0.2);
@@ -54,7 +57,7 @@
     --lightgrey-color: #7e7e7e;
     --lightgrey2-color: #8b8b8b;
     --lightgrey3-color: #696969;
-    --grey-color: rgba(34,34,34,0.4);
+    --grey-color: rgba(34, 34, 34, 0.4);
 
     /* gradients */
     --black-to-blue: linear-gradient(to right, #cbcbcb, #006CFF) no-repeat;
@@ -77,4 +80,14 @@
     --fs-64: 4rem;
     --fs-72: 4.5rem;
     --fs-100: 6.25rem;
+    --fs-200: 12.5rem;
+    --fs-250: 15.625rem;
+    --fs-300: 18.75rem;
+    --fs-400: 25rem;
+    --fs-500: 31.25rem;
+
+    --animation-1: transform 0.2s;
+    --animation-style-1: fadeIn 3s;
+    --animation-2: transform 0.5s;
+    --animation-style-2: fadeIn 5s;
 }

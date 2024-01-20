@@ -9,30 +9,28 @@
 }
 
 body {
-    background: url(../sources/img/4.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: var(--grey-color);
 }
 
-header {
+#header-container {
     position: fixed;
+    top: 0;
     width: 100%;
     display: flex;
     align-items: center;
     padding: 20px;
     background-color: transparent;
+
+    transition: top 2s;
 }
 
-header p {
+#header-container p {
     color: var(--white-color);
 }
 
 .title-container,
-.description,
-.logo-link,
-.sign-link {
-    width: 25%;
+.description {
+    width: 100%;
 }
 
 .title-container {
@@ -41,15 +39,73 @@ header p {
     font-weight: 900;
     font-style: italic;
     line-height: 0.9;
+
+    transition: var(--animation-1);
+    animation: var(--animation-style-1);
 }
 
 .description {
-    text-align: left;
+    text-align: right;
     font-family: 'NaturalMono';
     font-size: var(--fs-10);
     color: var(--white-color);
+
+    transition: var(--animation-1);
+    animation: var(--animation-style-1);
 }
 
 .description .item-3 {
     margin-left: var(--fs-10);
+}
+
+.content-container .item-1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-container .item-1 h2 {
+    font-family: 'PPMondwest';
+    font-size: var(--fs-300);
+    color: var(--white-color);
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 180px;
+    padding-top: 260px;
+
+    transition: var(--animation-2);
+    animation: var(--animation-style-2);
+}
+
+.content-container .item-1 p {
+    font-family: 'NaturalMono';
+    font-size: var(--fs-10);
+    color: var(--white-color);
+    letter-spacing: 1px;
+    padding: 0 500px;
+    margin-top: 100px;
+    text-align: center;
+
+    transition: var(--animation-2);
+    animation: var(--animation-style-2);
+}
+
+
+.sections-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title-section {
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 300px;
+}
+
+.title-section h2 {
+    font-family: '8NeutralGrotesk';
+    font-size: var(--fs-72);
+    color: var(--white-color);
+    line-height: 100px;
 }
