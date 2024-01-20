@@ -1,0 +1,37 @@
+/* Responsive article-container.item-1 h2 */
+@media (max-width: 1000px) {
+    .article-container.item-1 h2 {
+        font-size: 150px;
+        line-height: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .article-container.item-1 h2 {
+        font-size: 75px;
+        line-height: 50px;
+    }
+}
+
+/* Responsive article-container.item-1 p */
+@media (max-width: 1000px) {
+    .article-container.item-1 p {
+        padding-top: 60px;
+        margin: 0 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .article-container.item-1 p {
+        padding-top: 30px;
+        margin: 0 100px;
+    }
+}
+
+/* Responsive title-section.section-1 */
+@media (max-width: 1000px) {
+
+    .title-section.section-1 {
+        font-size: var(--fs-10);
+    }
+}
