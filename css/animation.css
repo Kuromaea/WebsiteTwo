@@ -8,3 +8,14 @@
         ocpacity: 1;
     }
 }
+
+/* scroll-text animation */
+@keyframes scroll-text {
+    from {
+        transform: translateX(25%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

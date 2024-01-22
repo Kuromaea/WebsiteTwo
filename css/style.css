@@ -79,6 +79,8 @@ body {
     line-height: 230px;
     padding-top: 260px;
 
+    /* text-shadow: 5px 10px 20px var(--lightgrey-color); */
+
     transition: var(--animation-2);
     animation: var(--animation-style-2);
 }
@@ -119,7 +121,6 @@ body {
     margin-top: 300px;
 }
 
-
 /* GSAP Animation */
 .title-section .text {
     width: 100%;
@@ -129,4 +130,26 @@ body {
     background-clip: text;
     background-size: 0%;
     transition: background-size cubic-bezier(.1, .5, .5, 1) 0.5s;
+}
+
+/* CSS text animation */
+.scroll-text {
+    margin-top: 100px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.scroll-text> :first-child {
+    font-family: 'NaturalMonoAlt';
+    font-size: var(--fs-300);
+    font-style: italic;
+    font-weight: 500;
+    color: var(--white-color);
+    margin: 100px;
+
+    /* text-shadow: 1px 10px 20px var(--lightgrey-color); */
+
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-text 25s infinite linear;
 }

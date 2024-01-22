@@ -32,4 +32,3 @@ textElements.forEach(text => {
     });
 });
 
-
