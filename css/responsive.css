@@ -61,12 +61,17 @@
 
     .title-section.section-1 {
         font-size: var(--fs-10);
+        margin-top: 100px;
     }
 }
 
-/* Responsive scroll-text */
+/* Responsive Marquee-text */
 @media (max-width: 1000px) {
-    .scroll-text> :first-child {
-        font-size: var(--fs-100);
+    .marquee-1 {
+        font-size: var(--fs-72);
+
+    }
+    .marquee-container {
+        margin-top: 100px;
     }
 }
