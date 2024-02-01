@@ -13,17 +13,17 @@ https://github.com/Kuromaea/WebsiteTwo/assets/41955164/1f6fda01-735e-4b34-8928-c
 - <code>JavaScript</code>
 - <code>GSAP</code>
 
-## 2. Coding goals ✨
+## 2. Coding ✨
 
 Development of an website prototype featuring a minimalist portfolio style.
 
 **🤔 Understanding:**
 
-- Deepen my knowledge of HTML & CSS and maintain good syntax.
 - Add GSAP & JavaScript animations.
 
 **🤓 Learning:**
 
+- Deepen my knowledge of HTML & CSS and maintain good syntax.
 - Deepen my knowledge further on how animations work in JavaScript & GSAP.
 - Make the responsiveness more intricate and adaptable.
 - Above all, practice and enhance my skills.
