@@ -1,54 +1,65 @@
-# Project - Website two
+# 🖼️ Project - Website Two
 
-**Description sentence**
+**Second Website - Landing-page style**
 
 # Introduction 🎞
 
-ADD IMG OR VIDEO LINK HERE
+https://github.com/Kuromaea/WebsiteTwo/assets/41955164/1f6fda01-735e-4b34-8928-caf3a9959979
 
 ## 1. Technologies 💻
 
-- <code></code>
-- <code></code>
+- <code>HTML</code>
+- <code>CSS</code>
+- <code>JavaScript</code>
+- <code>GSAP</code>
 
 ## 2. Coding goals ✨
 
-Development of an initial website prototype featuring a minimalist portfolio style.
+Development of an website prototype featuring a minimalist portfolio style.
 
 **🤔 Understanding:**
 
-- Sentences
+- Deepen my knowledge of HTML & CSS and maintain good syntax.
+- Add GSAP & JavaScript animations.
 
 **🤓 Learning:**
 
-- Sentences
+- Deepen my knowledge further on how animations work in JavaScript & GSAP.
+- Make the responsiveness more intricate and adaptable.
+- Above all, practice and enhance my skills.
 
 ### 🔁 Reflections
 
 > [!NOTE]
-Add a details description of the project here (max 20/30 lines)
-> 
+> This second website allows me to enhance responsiveness and dynamism on simple elements like texts. The purpose of this second site is to implement various dynamic ideas "from Scratch". I was able to add a more modern and dynamic navigation. The site is still in progress; I will refine it gradually, but I do not plan to add other pages (such as contact, portfolio, etc.). I want this second site to remain as a single animated landing page with a certain visual aesthetic. The responsiveness is actually better managed in this project than in "WebsiteOne". I managed to add a fairly decent responsiveness to this project.
 
 ## 3. Features 🛠
 
-Here are the various features that I was able to add to the game:
+Here are different features that I have implemented in the project:
 
-- **<code>ADD CODE HERE</code>**
-    - Description of the code sentences
+```diff
++ 
+  - 
++ 
+  - 
++ 
+  - 
++ 
+  - 
++ 
+  - 
+```
 
 ### ⚒ Optimizations
 
-- Description of the idea of optimizations
+- 
+- 
 
 ## 4. Run and Debug ⚙
 
-1. Download the **folder.zip** folder from the project and unzip it.
-2. Open the **folder folder** with a code editor of your choice.
-3. Launch the file <code>Add acces path</code> in your browser locally (you can use extensions such as Live Server, Live Preview, etc.).
-
-> [!IMPORTANT]
-Add here important point here
-> 
+1. Download or clone it the **WebsiteTwo.zip** folder from the project and unzip it.
+2. Open the **WebsiteTwo folder** with a code editor of your choice.
+3. Launch the file <code>/WebsiteTwo/index.html</code> in your browser locally (you can use extensions such as Live Server, Live Preview, etc.).
 
 ---
 
