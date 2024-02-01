@@ -38,22 +38,23 @@ Development of an website prototype featuring a minimalist portfolio style.
 Here are different features that I have implemented in the project:
 
 ```diff
-+ 
++ Currently in development
   - 
-+ 
++ Currently in development
   - 
-+ 
++ Currently in development
   - 
-+ 
++ Currently in development
   - 
-+ 
++ Currently in development
   - 
 ```
 
 ### ⚒ Optimizations
 
-- 
-- 
+- Add more animations using JavaScript & GSAP.
+- Experiment with integration tests of Three.js or WebGL.
+- Revise the overall visual style with new font tests.
 
 ## 4. Run and Debug ⚙
 
